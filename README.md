@@ -25,9 +25,9 @@ Below are the questions I want to answer in my project:
 
 ## 1) What are the most demanded skills for the top 3 most popular data roles?
 
-To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills i should pay attention to depending on the role i'm targeting
+To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills i should pay attention to depending on the role i'm targeting.
 
-View my notebook with detailed steps here[2_skill_demand.ipynb](2_project/2_skill_demand.ipynb)
+![alt text](image.png)
 
 ### Visualize Data
 
@@ -59,7 +59,7 @@ plt.show()
 
 ### Results
 
-Visualization of top skills for data roles(![Image](image-2.png))
+![alt text](image-1.png)
 
 ### Insights
 - Python is a versatile skill, highly demanded skill across all three roles, but most prominently for Data Scientist (62%)
@@ -119,7 +119,7 @@ plt.show()
 
 ### Results
 
-![Final Representaion](image.png)
+![alt text](image-2.png)
 
 ### Insights
 
@@ -145,9 +145,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'{int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
-
-### Results
-![Final Result](image-1.png)
+![alt text](image-4.png)
 
 ### Insights
 
@@ -224,7 +222,7 @@ plt.show()
 - Emerging Cloud and Database Skills: Cloud platforms (Azure, AWS) and various databases (Oracle, SQL Server, Hadoop) show varying levels of demand and salary, indicating a growing need for data analysts with infrastructure and diverse data storage expertise.
 
 ### Results
-(![Final Result](image-3.png))
+![alt text](image-5.png)
 
 # Conclusion
   This exploration into the data analyst job market has been incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights i got enhance my understanding and provide actionable guidance for anyone looking to advance their carrer in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project is a good foundation for future explorations and underscores the importance of continuous learning and adaptation in the data field.
