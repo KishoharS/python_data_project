@@ -145,7 +145,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'{int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
-![alt text](image-4.png)
+![alt text](image-3.png)
 
 ### Insights
 
@@ -180,6 +180,8 @@ Analysis: This plot shows a broader range of skills, indicating what is generall
 - Cloud platforms like Azure, AWS, and Oracle are also in demand, with salaries ranging from around $80K to $100K. This indicates a growing need for data analysts who can work with cloud-based data solutions.
 
 - Excel, R, and Tableau are still relevant, but their median salaries are generally lower compared to other listed skills, often below $100K. This suggests they might be more entry-level or supplementary skills.
+
+![alt text](image-4.png)
 
 ### Results: 
 - For general employability and a solid career foundation as a data analyst, mastering core skills like SQL, Python, and a visualization tool (e.g., Power BI or Tableau) is crucial. Adding cloud knowledge (Azure, AWS) can significantly boost earning potential and career opportunities.
