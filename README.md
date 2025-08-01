@@ -27,7 +27,7 @@ Below are the questions I want to answer in my project:
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills i should pay attention to depending on the role i'm targeting.
 
-![alt text](image.png)
+![alt text](images/image1.png)
 
 ### Visualize Data
 
@@ -59,7 +59,7 @@ plt.show()
 
 ### Results
 
-![alt text](image-1.png)
+![alt text](images/image2.png)
 
 ### Insights
 - Python is a versatile skill, highly demanded skill across all three roles, but most prominently for Data Scientist (62%)
@@ -119,7 +119,7 @@ plt.show()
 
 ### Results
 
-![alt text](image-2.png)
+![alt text](images/image3.png)
 
 ### Insights
 
@@ -145,7 +145,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'{int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
-![alt text](image-3.png)
+![alt text](images/image4.png)
 
 ### Insights
 
@@ -181,7 +181,7 @@ Analysis: This plot shows a broader range of skills, indicating what is generall
 
 - Excel, R, and Tableau are still relevant, but their median salaries are generally lower compared to other listed skills, often below $100K. This suggests they might be more entry-level or supplementary skills.
 
-![alt text](image-4.png)
+![alt text](images/image5.png)
 
 ### Results: 
 - For general employability and a solid career foundation as a data analyst, mastering core skills like SQL, Python, and a visualization tool (e.g., Power BI or Tableau) is crucial. Adding cloud knowledge (Azure, AWS) can significantly boost earning potential and career opportunities.
@@ -224,7 +224,7 @@ plt.show()
 - Emerging Cloud and Database Skills: Cloud platforms (Azure, AWS) and various databases (Oracle, SQL Server, Hadoop) show varying levels of demand and salary, indicating a growing need for data analysts with infrastructure and diverse data storage expertise.
 
 ### Results
-![alt text](image-5.png)
+![alt text](images/image6.png)
 
 # Conclusion
   This exploration into the data analyst job market has been incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights i got enhance my understanding and provide actionable guidance for anyone looking to advance their carrer in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project is a good foundation for future explorations and underscores the importance of continuous learning and adaptation in the data field.
